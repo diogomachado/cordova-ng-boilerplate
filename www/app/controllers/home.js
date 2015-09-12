@@ -1,17 +1,18 @@
 (function() {
-    'use strict';
+    //'use strict';
 
     angular
         .module('app')
-        .controller('HomeController', HomeController($scope, $rootScope, $cordovaNetwork));
+        .controller('HomeController', HomeController);
 
-    function HomeController(){
+    // Dependencias
+    HomeController.$injector = ['$scope', '$rootScope'];
+
+    function HomeController($scope, $rootScope){
+
         // Work here
         // ...
-
-        // listen for Online event
-        $rootScope.$on('$cordovaNetwork:online', function(event, networkState){
-            alert(networkState);
-        });
+        $scope.msg = "Angular ativo!";
     }
+
 })();
