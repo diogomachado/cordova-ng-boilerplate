@@ -1,8 +1,10 @@
 # cordova-ng-boilerplate
-Quer começar um aplicativo usando cordova, angularjs? Esse é um template base para começar seu projeto.
+Esse projeto é um template padrão para começar a desenvolver um aplicatvo híbrido com Cordova e Angularjs.
 
-## Dependencias
+####
 
-bower install ngCordova
-bower install angular-route
-bower install angular-touch
+## Instalando dependencias
+Para facilitar a instalação, decidimos usar o Bower, para configurar no seu computador, acesse: bower.io
+
+Depois de instalado, basta entrar no diretório www, e rodar:
+> bower install
