@@ -9,13 +9,13 @@ Proposta de projeto inicial para começar a desenvolver um aplicatvo híbrido co
 - ngCordova
 - normalize-css
 
-Para facilitar a instalação, decidimos usar o Bower, para configurar no seu computador, acesse: bower.io
+Para facilitar a instalação, decidimos usar o Bower, para configurar no seu computador, acesse: http://bower.io
 
 Depois de instalado, basta entrar no diretório www, e rodar:
 > bower install
 
 ## Se quiser utilizar o Phonegap Build
-- Mova o arquivo config.xml para dentro de wwww (isso vai facilitar para você não enviar diretórios desnecessários)
+- Mova o arquivo config.xml para dentro de www (isso vai facilitar para você não enviar diretórios desnecessários)
 - Se atente ao caminho do splashscreen e icone depois que você mover o arquivo config.xml
 - Altere no arquivo index.html o link cordova.js para phonegap.js
 
