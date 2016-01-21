@@ -17,6 +17,7 @@ Depois de instalado, basta entrar no diretório www, e rodar:
 ## Se quiser utilizar o Phonegap Build
 - Mova o arquivo config.xml para dentro de www (isso vai ajudar não inchar o tamanho do seu app)
 - Se atente ao caminho do splashscreen e icone depois que você mover o arquivo config.xml
+
 > phonegap remote build android
 
 ## Fique atento
