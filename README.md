@@ -1,7 +1,7 @@
 # cordova-ng-boilerplate
-Proposta de projeto inicial para começar a desenvolver um aplicatvo híbrido com Cordova e Angularjs rápido, sem precisar ficar configurando muita coisa.
+Configurar um aplicativo com angularjs e phonegap do zero é MUITO chato, use esse projeto para startar seu app.
 
-## Instalando dependencias
+## Dependências incluidas
 
 - angular
 - angular-route
@@ -15,12 +15,13 @@ Depois de instalado, basta entrar no diretório www, e rodar:
 > bower install
 
 ## Se quiser utilizar o Phonegap Build
-- Mova o arquivo config.xml para dentro de www (isso vai facilitar para você não enviar diretórios desnecessários)
+- Mova o arquivo config.xml para dentro de www (isso vai ajudar não inchar o tamanho do seu app)
 - Se atente ao caminho do splashscreen e icone depois que você mover o arquivo config.xml
-- Altere no arquivo index.html o link cordova.js para phonegap.js
+> phonegap remote build android
 
 ## Fique atento
-Retire os arquivos .gitignore de dentro de /app/directives e /app/services caso você crie arquivos nesses diretórios. Esse .gitignore foi adicionado para termos a pasta vazia.
+- Retire os arquivos .gitignore de dentro de /app/directives e /app/services caso você crie arquivos nesses diretórios. Esse .gitignore foi adicionado para termos a pasta vazia.
+- Usando o bower, fique atendo se não existe diretórios com o nome demo, estes diretórios atrapalham a compilação por teram um index.html, sugiro jogar fora :)
 
 ## Interface
 Se você não quer criar uma, ou não tem uma framework UI em mente, essa aqui http://goratchet.com/ pode lhe ser útil.
