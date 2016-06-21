@@ -1,24 +1,32 @@
 (function() {
     'use strict';
 
-    angular.module('app',['ngCordova','ngRoute', 'ngTouch'])
+    function initCordova(){
+        document.addEventListener("deviceready", function () {
+            console.info("Cordova inicializado com sucesso");
+        }, false);
+    }
+
+    angular.module('app',['ngRoute', 'ngCordova'])
     .config(function($routeProvider)
     {
-      // Definição de rotas
+        // Rotas
         $routeProvider
         .when('/', {
-          templateUrl : 'app/views/home.html',
-          controller : 'HomeController',
-          controllerAs : 'Home'
-      })
+            templateUrl  : 'app/views/home.html',
+            controller   : 'HomeController',
+            controllerAs : 'Home'
+        })
         .otherwise ({ redirectTo: '/' });
     })
     .run(function(){
 
-        // Escuta o evento de inicialização do cordova
-        document.addEventListener("deviceready", function () {
-            console.log("Cordova inicializado");
-        }, false);
+        initCordova();
+
+        /*
+            O run é executado, após carregar o angular e as rotas, no run fazemos configurações iniciais
+        */
+
     });
 
 })();

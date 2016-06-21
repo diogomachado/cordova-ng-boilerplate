@@ -6,11 +6,11 @@
         .controller('HomeController', HomeController);
 
     // Dependencias
-    HomeController.$injector = ['$scope', '$rootScope'];
+    HomeController.$injector = ['$scope'];
 
-    function HomeController($scope, $rootScope){
+    function HomeController($scope){
 
-        // Work here
+        // Lógica aqui
         // ...
         $scope.msg = "Angular ativo!";
     }
