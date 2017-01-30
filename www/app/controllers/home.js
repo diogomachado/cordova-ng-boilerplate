@@ -5,14 +5,9 @@
         .module('app')
         .controller('HomeController', HomeController);
 
-    // Dependencias
     HomeController.$injector = ['$scope'];
 
     function HomeController($scope){
-
-        // Lógica aqui
-        // ...
-        $scope.msg = "Angular ativo!";
+        $scope.msg = "Angular active!";
     }
-
 })();
