@@ -1,29 +1,21 @@
-# cordova-ng-boilerplate
-Configurar um aplicativo Cordova com Angularjs do zero pode ser chato, use esse projeto como template para startar seu app.
+Setting up a Cordova app with Angularjs from scratch can be annoying, use this project as a template to start your app.
 
-É simples assim:
->  cordova create novoApp --template=https://github.com/diogomachado/cordova-ng-boilerplate
+It's simple:
+>  cordova create <NAME_APP> --template=cordova-ng-boilerplate
 
-## Dependências incluidas
-Para gerenciar as dependências usamos o Bower (http://bower.io)
+## Dependencies front-end
+To manage dependencies we use the Bower (http://bower.io)
 > npm install -g bower
 
-O projeto já vem com os pacotes inclusos:
+The project include the packages:
 
 - angular
 - angular-route
 - ngCordova
 - normalize-css
 
-Basta acessar o diretório `www`, e rodar o comando:
+Check your directory `www`, and execute command:
 > bower install
 
-## Atenção
-- Retire os arquivos .gitignore de dentro de /app/directives e /app/services caso você crie arquivos nesses diretórios. Esse .gitignore foi adicionado para termos a pasta vazia.
-- Usando o bower, fique atendo se não existe diretórios com o nome demo, estes diretórios atrapalham a compilação por teram um index.html, sugiro jogar fora :)
-
-## Interface
-Não utilizamos nenhum framework de interface no template, você pode ficar a vontade para escolher um.
-
-## Icones e splashscreen
-Os ícones do app e splashscreen foram gerados pelo site http://pgicons.abiro.com
+## Attention
+- Using the bower, be aware if there are no directories with the name __demo__, these directories hamper the compilation by having an index.html, I suggest throwing it out.

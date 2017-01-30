@@ -1,0 +1,25 @@
+{
+  "name": "cordova-ng-boilerplate",
+  "version": "1.0.5",
+  "description": "Cordova fast init project with Angularjs 1.6.x",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogomachado/cordova-ng-boilerplate.git"
+  },
+  "keywords": [
+    "Angularjs",
+    "Cordova",
+    "Phonegap",
+    "Template"
+  ],
+  "author": "Diogo Machado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diogomachado/cordova-ng-boilerplate/issues"
+  },
+  "homepage": "https://github.com/diogomachado/cordova-ng-boilerplate#readme"
+}
