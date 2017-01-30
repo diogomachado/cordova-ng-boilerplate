@@ -1,2 +1,4 @@
 /www/bower_components/
 *.xdk*
+platforms/*
+plugins/*
