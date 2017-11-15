@@ -4,18 +4,9 @@ It's simple:
 >  cordova create <NAME_APP> --template=cordova-ng-boilerplate
 
 ## Dependencies front-end
-To manage dependencies we use the Bower (http://bower.io)
-> npm install -g bower
 
 The project include the packages:
 
-- angular
-- angular-route
-- ngCordova
-- normalize-css
-
-Check your directory `www`, and execute command:
-> bower install
-
-## Attention
-- Using the bower, be aware if there are no directories with the name __demo__, these directories hamper the compilation by having an index.html, I suggest throwing it out.
+- angularjs v1.6.6
+- angular-route v1.6.6
+- normalize-css v7.0.0
