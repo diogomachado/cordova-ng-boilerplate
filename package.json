@@ -2,7 +2,6 @@
   "name": "cordova-ng-boilerplate",
   "version": "1.0.8",
   "description": "Cordova fast init project with Angularjs 1.6.x",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
